@@ -21,8 +21,6 @@ pacman -Syu
 #### 2) edit config files
 ```nginx
 visudo
-```          
-```nginx
       -> uncomment
                     sudo
 ```
