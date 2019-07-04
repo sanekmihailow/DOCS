@@ -75,7 +75,7 @@ sudo ifconfig eth0 up
 ip a add 192.168.1.101/24 dev eth0
 ip route add default via 192.168.1.1
 ```
-* vim /etc/resolv.conf
+* /etc/resolv.conf
 ```bash
                      -> nameserver 8.8.8.8
 ```
