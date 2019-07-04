@@ -4,7 +4,7 @@
       <example> - пример без знаков <>
     
 Например:
-      mysql -u root -p -d <database> < <example>.sql
+      mysql -u <user_nysql> -p -d <database_mysql> < <example>.sql
 выглядит как
       mysql -u root -p -d inno_DB < inno.sql
 ```
@@ -19,7 +19,7 @@
       <example> - example without characters <>
 
 For example:
-      mysql -u <user> -p -d <database> < <example>.sql
+      mysql -u <user_mysql> -p -d <database_mysql> < <example>.sql
 looks like
       mysql -u root -p -d inno_DB < inno.sql
 ```
