@@ -85,7 +85,7 @@ ip route add default via 192.168.1.1
 ```nginx
 cp /etc/netctl/examples/ethenet-static  /etc/netctl/static.eth0  ( or eth0 )
 ```
-* sudo vim /etc/netctl/static.eth0
+* /etc/netctl/static.eth0
 ```bash
 Description='A basic static ethernet connection'
 Interface=eth0
