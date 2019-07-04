@@ -1,0 +1,159 @@
+{:	data{o:Nanoc::Identifier:
+@type:	full:@stringI"/index.html:ET{:default{
+:	lastU:Nanoc::Int::TextualContent[0I"<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Brand New Nanoc Site - Home</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="Nanoc 4.11.0">
+  </head>
+  <body>
+    <div id="main">
+      <h1>A Brand New Nanoc Site</h1>
+
+<p>You’ve just created a new Nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+
+<ul>
+  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
+  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
+</ul>
+
+<p>If you need any help with customizing your Nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
+
+    </div>
+    <div id="sidebar">
+      <h2>Documentation</h2>
+      <ul>
+        <li><a href="http://nanoc.ws/doc/">Documentation</a></li>
+        <li><a href="http://nanoc.ws/doc/tutorial/">Tutorial</a></li>
+      </ul>
+      <h2>Community</h2>
+      <ul>
+        <li><a href="http://groups.google.com/group/nanoc/">Discussion group</a></li>
+        <li><a href="https://gitter.im/nanoc/nanoc">Gitter channel</a></li>
+        <li><a href="http://nanoc.ws/contributing/">Contributing</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;
+T:rawU;[I"=C:/Users/adminB/Documents/nanoc-tests/content/index.html;
+TI"�<h1>A Brand New Nanoc Site</h1>
+
+<p>You’ve just created a new Nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+
+<ul>
+  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
+  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
+</ul>
+
+<p>If you need any help with customizing your Nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
+;
+T:pre@:_0@:	post@o;;;;	I"/stylesheet.css;
+T{;{	;U;[I"AC:/Users/adminB/Documents/nanoc-tests/content/stylesheet.css;
+TI"�* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, serif;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 40px;
+  left: 280px;
+
+  width: 500px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+#main p {
+  margin: 20px 0;
+
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#sidebar {
+  position: absolute;
+
+  top: 40px;
+  left: 20px;
+  width: 200px;
+
+  padding: 20px 20px 0 0;
+
+  border-right: 1px solid #ccc;
+
+  text-align: right;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
+;
+T;@;@;@:versioni

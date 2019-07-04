@@ -1,0 +1,116 @@
+Crashlog created at 2018-12-30 13:07:19 +0300
+
+===== MESSAGE:
+
+Encoding::CompatibilityError: Unicode Normalization not appropriate for ASCII-8BIT
+
+===== STACK TRACE:
+
+  24. from C:/Ruby25-x64/bin/nanoc:23:in `<main>'
+  23. from C:/Ruby25-x64/bin/nanoc:23:in `load'
+  22. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/bin/nanoc:18:in `<top (required)>'
+  21. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli.rb:62:in `run'
+  20. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/error_handler.rb:15:in `handle_while'
+  19. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/error_handler.rb:57:in `handle_while'
+  18. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/error_handler.rb:15:in `block in handle_while'
+  17. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli.rb:64:in `block in run'
+  16. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cri-2.15.2/lib/cri/command.rb:314:in `run'
+  15. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cri-2.15.2/lib/cri/command.rb:296:in `run'
+  14. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cri-2.15.2/lib/cri/command.rb:359:in `run_this'
+  13. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cri-2.15.2/lib/cri/command_dsl.rb:303:in `block in runner'
+  12. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/command_runner.rb:13:in `call'
+  11. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/error_handler.rb:12:in `handle_while'
+  10. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/error_handler.rb:12:in `warn'
+  9. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/cleaning_stream.rb:44:in `write'
+  8. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/cleaning_stream.rb:156:in `_nanoc_swallow_broken_pipe_errors_while'
+  7. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/cleaning_stream.rb:45:in `block in write'
+  6. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/cleaning_stream.rb:152:in `_nanoc_clean'
+  5. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/cleaning_stream.rb:152:in `reduce'
+  4. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/cleaning_stream.rb:152:in `each'
+  3. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/cleaning_stream.rb:152:in `block in _nanoc_clean'
+  2. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/stream_cleaners/utf8.rb:12:in `clean'
+  1. from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib/nanoc/cli/stream_cleaners/utf8.rb:12:in `unicode_normalize'
+  C:/Ruby25-x64/lib/ruby/2.5.0/unicode_normalize/normalize.rb:141:in `normalize'
+
+===== VERSION INFORMATION:
+
+Nanoc 4.11.0 © 2007-2018 Denis Defreyne.
+Running ruby 2.5.3 (2018-10-18) on x64-mingw32 with RubyGems 2.7.6.
+
+===== INSTALLED GEMS:
+
+  addressable 2.5.2
+  adsf 1.4.1
+  bigdecimal 1.3.4
+  cmath 1.0.0
+  colored 1.2
+  concurrent-ruby 1.1.4
+  cri 2.15.2
+  csv 1.0.0
+  date 1.0.0
+  dbm 1.0.0
+  ddmemoize 1.0.0
+  ddmetrics 1.0.1
+  ddplugin 1.0.2
+  did_you_mean 1.2.0
+  etc 1.0.0
+  fcntl 1.0.0
+  fiddle 1.0.0
+  fileutils 1.0.2
+  gdbm 2.0.0
+  hamster 3.0.0
+  io-console 0.4.6
+  ipaddr 1.2.0
+  json 2.1.0
+  json_schema 0.19.1
+  kramdown 1.17.0
+  minitest 5.10.3
+  nanoc 4.11.0
+  net-telnet 0.1.1
+  openssl 2.1.2
+  parallel 1.12.1
+  power_assert 1.1.1
+  psych 3.0.2
+  public_suffix 3.0.3
+  rack 2.0.6
+  rake 12.3.0
+  rdoc 6.0.1
+  ref 2.0.0
+  scanf 1.0.0
+  sdbm 1.0.0
+  slow_enumerator_tools 1.1.0
+  stringio 0.0.1
+  strscan 1.0.0
+  test-unit 3.2.7
+  tomlrb 1.2.8
+  webrick 1.4.2
+  xmlrpc 0.3.0
+  zlib 1.0.0
+
+===== LOAD PATHS:
+
+  0. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ref-2.0.0/lib
+  1. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib
+  2. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/public_suffix-3.0.3/lib
+  3. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/addressable-2.5.2/lib
+  4. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/colored-1.2/lib
+  5. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cri-2.15.2/lib
+  6. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ddmetrics-1.0.1/lib
+  7. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ref-2.0.0/lib
+  8. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ddmemoize-1.0.0/lib
+  9. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ddplugin-1.0.2/lib
+  10. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.1.4/lib
+  11. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/hamster-3.0.0/lib
+  12. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/json_schema-0.19.1/lib
+  13. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib
+  14. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/slow_enumerator_tools-1.1.0/lib
+  15. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tomlrb-1.2.8/lib
+  16. C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nanoc-4.11.0/lib
+  17. C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0
+  18. C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0/x64-msvcrt
+  19. C:/Ruby25-x64/lib/ruby/site_ruby
+  20. C:/Ruby25-x64/lib/ruby/vendor_ruby/2.5.0
+  21. C:/Ruby25-x64/lib/ruby/vendor_ruby/2.5.0/x64-msvcrt
+  22. C:/Ruby25-x64/lib/ruby/vendor_ruby
+  23. C:/Ruby25-x64/lib/ruby/2.5.0
+  24. C:/Ruby25-x64/lib/ruby/2.5.0/x64-mingw32
