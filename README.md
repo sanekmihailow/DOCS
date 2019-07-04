@@ -1,5 +1,4 @@
-# my_man
-manuals and examples
+
 
 ```bash
       <example> - пример без знаков <>
