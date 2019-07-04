@@ -1,10 +1,10 @@
 ### Links
 
-[1](http://ipmnet.ru/~sadilina/Fedora/303.html)
+[ipmnet.ru](http://ipmnet.ru/~sadilina/Fedora/303.html)
 
-[2](http://win-linux.ru/parametry-jadra-linux/)
+[win-linux.ru](http://win-linux.ru/parametry-jadra-linux/)
 
-[3](https://wiki.archlinux.org/index.php/kernel_parameters)
+[wiki.archlinux.org](https://wiki.archlinux.org/index.php/kernel_parameters)
 
 ### передача параметров
 
