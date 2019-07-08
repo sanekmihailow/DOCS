@@ -1,2 +1,0 @@
-# nanoc-tests
-nanoc-test
