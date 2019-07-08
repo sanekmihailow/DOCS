@@ -1,2 +1,2 @@
 # nanoc-tests
-nanoc-test1
+nanoc-test2
