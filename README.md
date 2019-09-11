@@ -61,10 +61,12 @@ if example have symbols character
                       Special symbolic hashtag in config file 
             </summary>
             
-  **On Start String**
-  
+
+    
 | ***hashtag*** | ***additional comment*** | ***Decsription*** |
-|---|---|---| 
+|---|---|---|
+|***|<b>On Start String<b>|***|
+| | | | | | 
 | <b>#M</b> | - commented text | значит я намерено закоментил | 
 | <b>#W</b> | - описание\| text | warning |
 | <b>#Er</b> or <b>#ER</b> | - описание\| text | error |
@@ -76,11 +78,9 @@ if example have symbols character
 | <b>#!NE</b> | - описание\| text | not exist |
 | <b>#!WW</b> | - описание\| text | work wrong |
 | <b>#!D</b> | - описание\| text | deprecated in verion or other |
-
-   **On all other place in string**
-
-| ****** | ****** | ****** |
-|---|---|---| 
+| | | | | |
+|***|<b>On all other place in string<b>|***|
+| | | | 
 | <b>#F</b> | - text | формат ввода |
 | <b>#V</b> | - text | один из вариантов комманды |
 | <b>#C</b> | - comment | комментарий ввиде описания |
