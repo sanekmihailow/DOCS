@@ -25,6 +25,8 @@ RUS
       $<пример>$
 ```
 
+**[OPTIONS]** содержит болле чем одну команду или ключ
+
 ENG
 ==
 
@@ -47,6 +49,8 @@ if example have symbols character
 ```python
       $<example>$
 ```
+
+**[OPTIONS]** contains more then one command or special key
 
 </details>
 </d>
