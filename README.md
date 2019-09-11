@@ -54,3 +54,12 @@ if example have symbols character
 
 </details>
 </d>
+
+<d>
+      <details>
+            <summary> Особые символьные тэги в конфигурационном файле /
+                      Special symbolic hashtag in config file 
+            </summary>
+            
+
+ 
