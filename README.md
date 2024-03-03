@@ -69,7 +69,7 @@ if example have symbols character
 | | | | | | 
 | <b>#M</b> | - commented text | значит я намерено закоментил | 
 | <b>#W</b> | - описание\| text | warning |
-| <b>#DW</b> | - описание\| text | does work +(text)?| |
+| <b>#DW</b> | - описание\| text | does work or does work with chain requored example: #DW- 1) #DW- 2) ... #DW- n) |
 | <b>#Er</b> or <b>#ER</b> | - описание\| text | error |
 | <b>#R</b> | - описание\| text | removed in version or other |
 | <b>#Ed</b> or <b>#E</b> | - описание\| text | eddit |
